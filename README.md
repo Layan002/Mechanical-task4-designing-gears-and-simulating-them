@@ -22,4 +22,11 @@ Outer diameter = ( Number of teeth +2 ) * Module
 
 ![image](https://github.com/user-attachments/assets/469bc553-416d-4649-9654-26a4a69ae908)
 
+![image](https://github.com/user-attachments/assets/2887f212-1103-4bd3-be05-0f53fd28dd40)
+
+Angle = 
+
+![image](https://github.com/user-attachments/assets/078f4953-42aa-4bab-916d-86384bc7c441)
+
+
 
