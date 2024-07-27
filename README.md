@@ -86,7 +86,7 @@ Then using Circular pattern feature and give it the number of teeth:
 > Don't forget to select the fillet otherwise the pattern wont be applied !
 
 And that is it! 
-This is a profassional ans standard spur gear using global variable and equations in SolidWorks. 
+This is a profassional and standard spur gear using global variable and equations in SolidWorks. 
 ![image](https://github.com/user-attachments/assets/72925b41-cee4-434a-bb36-18e7ba31023b)
 
 -------------------------------------
