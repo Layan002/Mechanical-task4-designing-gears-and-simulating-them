@@ -234,6 +234,29 @@ A **key** is usually made from steel and is inserted or mounted between the shaf
 ### Important equation for designing: 
 ![image](https://github.com/user-attachments/assets/95007572-ac23-459e-87ac-e88f599bc0d9)
 
+### Final Results for all gears:
+#### Gear1 (Pictrure): <br>
+![image](https://github.com/user-attachments/assets/ce8f0b1d-7d19-4e3f-b938-0a31a03b3db5)
+
+#### Gear1 (Video): 
+
+#### Gear2 (Pictrure): <br>
+
+
+#### Gear2 (Video): 
+
+#### Gear3 (Pictrure): <br>
+
+
+#### Gear3 (Video): 
+
+#### Gear4 (Pictrure): <br>
+
+
+#### Gear4 (Video): 
+
+
+
 
 
 # Simulation ?
