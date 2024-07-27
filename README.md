@@ -1,3 +1,7 @@
+# What is the task?
+The task is to design 4 gears to make the first gear rotates 18 times to make the last gear rotate once
+
+
 # SolidWorks
 
 open new file -> part -> right-click on the part -> hidden tree items -> Equations -> manage Equations
@@ -78,6 +82,22 @@ And that is it!
 This is a profassional ans standard spur gear using global variable and equations in SolidWorks. 
 ![image](https://github.com/user-attachments/assets/72925b41-cee4-434a-bb36-18e7ba31023b)
 
+-------------------------------------
+# What I need
+to complete the task of designing 4 gears to make the first gear rotates 18 times to make the last gear rotate once, is to make the following steps:
+- defining the number of teeth for each gear
+```
+gear1: 4 teeth
+gear2: 12 teeth
+gear3: 6 teeth
+gear4: 36 teeth
+```
+This will make ratio as follow:
+```
+"Ratio betweeen gear 2 and gear 1" = "Gear2" / "Gear1" =  12 / 4 = 3
+"Ratio betweeen gear 4 and gear 3" = "Gear4" / "Gear3" =  36 / 6 = 6
+number of turns for gear1 = Ratio betweeen gear 2 and gear 1 * Ratio betweeen gear 4 and gear 3 =  3 * 6 = 18 
+```
 
 
 
