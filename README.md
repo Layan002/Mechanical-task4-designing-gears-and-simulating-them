@@ -159,9 +159,12 @@ Pressure angle = 25
 Number of teeth gear1 = 4
 ```
 
-
+### Final result for gear1:
 Now, I finished the hardest gear since it is the smallest one (even toolBox in solidWorks does not contain a gear with 4 teeth 😅). <br>
 ![image](https://github.com/user-attachments/assets/e239523e-0860-4dc1-b863-c3fd69fe69b9)
+
+### Designing Video for gear1:
+
 
 
 ## Createing 12 teeth gear
@@ -172,6 +175,12 @@ Module = 4mm
 Pressure angle = 25
 Number of teeth gear1 = 12
 ```
+
+### Final result for gear2:
+![image](https://github.com/user-attachments/assets/398ffa00-bd68-45d1-980d-142c0f22adce)
+
+### Designing Video for gear2:
+
 
 # How to make two gears fit togeter ?
 
