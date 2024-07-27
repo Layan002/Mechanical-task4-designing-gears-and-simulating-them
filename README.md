@@ -173,7 +173,7 @@ gear2 has the folllowing global variable: <br>
 ```
 Module = 4mm
 Pressure angle = 25
-Number of teeth gear1 = 12
+Number of teeth gear2 = 12
 ```
 
 ### Final result for gear2:
@@ -182,13 +182,15 @@ Number of teeth gear1 = 12
 
 ### Designing Video for gear2:
 
+
+
 ## Createing 6 teeth gear
 
-gear2 has the folllowing global variable: <br>
+gear3 has the folllowing global variable: <br>
 ```
 Module = 4mm
 Pressure angle = 25
-Number of teeth gear1 = 6
+Number of teeth gear3 = 6
 ```
 
 ### Final result for gear3:
@@ -199,6 +201,22 @@ Number of teeth gear1 = 6
 
 ### Designing Video for gear3:
 
+
+
+## Createing 36 teeth gear
+
+gear4 has the folllowing global variable: <br>
+```
+Module = 4mm
+Pressure angle = 25
+Number of teeth gear4 = 36
+```
+
+### Final result for gear4:
+
+
+
+### Designing Video for gear4:
 
 
 # How to make two gears fit togeter ?
