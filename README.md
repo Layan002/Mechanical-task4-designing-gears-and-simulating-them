@@ -149,7 +149,7 @@ number of turns for gear1 = (Ratio betweeen gear 2 and gear 1) * (Ratio betweeen
 ```
 
 ## Createing 4 teeth gear
-All the gears will have the same modul and pressure angle in order to make them mesh. the difference is the number of teeth.  <br>
+All the gears will have the same modul and pressure angle in order to make them mesh. the difference just in the number of teeth.  <br>
 Module with 2 mm is impossible for 4 teath gears. So, I will make it bigger with 4 mm. <br>
 Also the possible pressure angle is 25 it cannot be less than that! (I tried that) . <br>
 gear1 has the folllowing global bariable: <br>
