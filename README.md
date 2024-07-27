@@ -152,7 +152,7 @@ number of turns for gear1 = (Ratio betweeen gear 2 and gear 1) * (Ratio betweeen
 All the gears will have the same modul and pressure angle in order to make them mesh. the difference just in the number of teeth.  <br>
 Module with 2 mm is impossible for 4 teath gears. So, I will make it bigger with 4 mm. <br>
 Also the possible pressure angle is 25 it cannot be less than that! (I tried that) . <br>
-gear1 has the folllowing global bariable: <br>
+gear1 has the folllowing global variable: <br>
 ```
 Module = 4mm
 Pressure angle = 25
@@ -161,8 +161,16 @@ Number of teeth gear1 = 4
 
 
 Now, I finished the hardest gear since it is the smallest one (even toolBox in solidWorks does not contain a gear with 4 teeth 😅). <br>
-![image](https://github.com/user-attachments/assets/164916fd-e476-4cac-b983-1a00d645d835)
+![image](https://github.com/user-attachments/assets/4e8372c4-7332-497a-98e4-7a6c18b06156)
 
+## Createing 12 teeth gear
+
+gear2 has the folllowing global variable: <br>
+```
+Module = 4mm
+Pressure angle = 25
+Number of teeth gear1 = 12
+```
 
 # How to make two gears fit togeter ?
 
