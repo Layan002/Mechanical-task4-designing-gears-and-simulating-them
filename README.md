@@ -99,6 +99,120 @@ This will make ratio as follow:
 number of turns for gear1 = (Ratio betweeen gear 2 and gear 1) * (Ratio betweeen gear 4 and gear 3) =  3 * 6 = 18 
 ```
 
+## Equations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------
+To create and simulate a set of four gears controlling each other in SolidWorks, you can use equations and global variables to define their relationships. Here’s how to set it up:
+
+Define Global Variables for Gear Parameters:
+
+Number of teeth for each gear
+Diameters for each gear (if needed)
+Gear ratios
+Create Equations to Control Rotational Relationships:
+
+Define the angular velocities and rotations based on the gear ratios.
+Here’s an example setup:
+
+Step 1: Define Global Variables
+Open the Equations Manager: Tools > Equations.
+Add the following global variables:
+plaintext
+Copy code
+"Teeth_Gear1" = 4
+"Teeth_Gear2" = 12
+"Teeth_Gear3" = 6
+"Teeth_Gear4" = 36
+Step 2: Define Gear Ratios
+Add the gear ratios based on the number of teeth:
+plaintext
+Copy code
+"Ratio_Gear1_to_Gear2" = "Teeth_Gear2" / "Teeth_Gear1"  // 12 / 4 = 3
+"Ratio_Gear2_to_Gear3" = "Teeth_Gear3" / "Teeth_Gear2"  // 6 / 12 = 0.5
+"Ratio_Gear3_to_Gear4" = "Teeth_Gear4" / "Teeth_Gear3"  // 36 / 6 = 6
+Step 3: Define Angular Velocities
+Define the angular velocity of Gear 1 (input gear):
+plaintext
+Copy code
+"AngularVelocity_Gear1" = 1  // 1 revolution per second (or any unit)
+Define the angular velocities for the other gears based on the input gear:
+plaintext
+Copy code
+"AngularVelocity_Gear2" = "AngularVelocity_Gear1" / "Ratio_Gear1_to_Gear2"  // 1 / 3 = 0.333
+"AngularVelocity_Gear3" = "AngularVelocity_Gear2" / "Ratio_Gear2_to_Gear3"  // 0.333 / 0.5 = 0.666
+"AngularVelocity_Gear4" = "AngularVelocity_Gear3" / "Ratio_Gear3_to_Gear4"  // 0.666 / 6 = 0.111
+Step 4: Define Rotations
+Define the rotations (angle) for each gear:
+plaintext
+Copy code
+"Rotation_Gear1" = "AngularVelocity_Gear1" * "Time"
+"Rotation_Gear2" = "AngularVelocity_Gear2" * "Time"
+"Rotation_Gear3" = "AngularVelocity_Gear3" * "Time"
+"Rotation_Gear4" = "AngularVelocity_Gear4" * "Time"
+Here, Time is the simulation time variable that you can define as a global variable or parameter.
+
+Example Equations in SolidWorks
+In the Equations Manager, you can add equations like this:
+
+plaintext
+Copy code
+"Teeth_Gear1" = 4
+"Teeth_Gear2" = 12
+"Teeth_Gear3" = 6
+"Teeth_Gear4" = 36
+
+"Ratio_Gear1_to_Gear2" = "Teeth_Gear2" / "Teeth_Gear1"
+"Ratio_Gear2_to_Gear3" = "Teeth_Gear3" / "Teeth_Gear2"
+"Ratio_Gear3_to_Gear4" = "Teeth_Gear4" / "Teeth_Gear3"
+
+"AngularVelocity_Gear1" = 1
+"AngularVelocity_Gear2" = "AngularVelocity_Gear1" / "Ratio_Gear1_to_Gear2"
+"AngularVelocity_Gear3" = "AngularVelocity_Gear2" / "Ratio_Gear2_to_Gear3"
+"AngularVelocity_Gear4" = "AngularVelocity_Gear3" / "Ratio_Gear3_to_Gear4"
+
+"Time" = [Your Simulation Time]
+
+"Rotation_Gear1" = "AngularVelocity_Gear1" * "Time"
+"Rotation_Gear2" = "AngularVelocity_Gear2" * "Time"
+"Rotation_Gear3" = "AngularVelocity_Gear3" * "Time"
+"Rotation_Gear4" = "AngularVelocity_Gear4" * "Time"
+Step 5: Apply Equations to Your Model
+Create your gears in SolidWorks with the correct number of teeth.
+Use the equations to drive the rotational relationships in your assembly.
+Apply mates and constraints to ensure gears are properly meshed and aligned.
+Run the simulation to see the gears rotate based on the defined equations.
+This setup ensures that Gear 1 will rotate 18 times for Gear 4 to complete one full rotation, as the ratios and angular velocities are correctly defined. Adjust the Time variable to simulate different durations.
+
+
+
+
+
+
+
 
 
 
