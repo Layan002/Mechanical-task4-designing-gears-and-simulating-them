@@ -47,6 +47,7 @@ make the Two lines symmetric about the dashed line:
 The relation between depth (the second inner circle) and outer diameter is = module * if Module equals or greater than 1.25 then multiply by 2.25 if else: multeply by 2.4 :
 ![image](https://github.com/user-attachments/assets/5d6e42b5-5264-4249-afa2-0b1f3815b7c9)
 
+Results:
 ![image](https://github.com/user-attachments/assets/39d5297d-281e-49bb-b228-e58dffc60617)
 
 Now show previous sketch and draw two arcs and make them symmetric about the vertical line. Then make intersection as this: 
