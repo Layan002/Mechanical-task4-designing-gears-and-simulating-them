@@ -236,21 +236,54 @@ A **key** is usually made from steel and is inserted or mounted between the shaf
 
 ### Final Results for all gears:
 #### Gear1 (Pictrure): <br>
+I used here **"Square key"** (cross-sectional keys). They are generally specified for shafts up to about 25mm or 1″. They can be used for larger shafts when deeper key depth is desirable than rectangular keys. An increase in depth means a weaker shaft due to reduced effective shaft cross-sectional area. <br>
+
 ![image](https://github.com/user-attachments/assets/ce8f0b1d-7d19-4e3f-b938-0a31a03b3db5)
 
 #### Gear1 (Video): 
 
 #### Gear2 (Pictrure): <br>
+I've use here **"Rectangular keys"**, as shown, are wider than their height and are sometimes called flat keys. These are used on shafts up to about 500 mm or 20″ in diameter. The extra key width allows it to transmit greater torque without increasing the depth. An increase in depth means a weaker shaft due to a reduction in effective shaft cross-sectional area.<br>
+
+```
+Hub = 10 mm
+Diameter = 8 mm
+W = Diameter / 4 = 8 / 4 = 2 mm
+T = Diameter / 6 = 1.33 mm
+```
+
+![image](https://github.com/user-attachments/assets/271604ea-667b-4aee-a516-5541c8f07731)
+
 
 
 #### Gear2 (Video): 
 
 #### Gear3 (Pictrure): <br>
 
+I will use the same dimentions of gear 2. <br>
+
+```
+Hub = 10 mm
+Diameter = 8 mm
+W = Diameter / 4 = 8 / 4 = 2 mm
+T = Diameter / 6 = 1.33 mm
+```
+
+![image](https://github.com/user-attachments/assets/9111551a-d438-4bb0-99e4-f01a810505f2)
+
 
 #### Gear3 (Video): 
 
 #### Gear4 (Pictrure): <br>
+I will use here rectangle key, with the following values: <br>
+
+```
+Hub = 40 mm
+Diameter = 30 mm
+W = Diameter / 4 = 30 / 4 = 7.5 mm
+T = Diameter / 6 = 30 / 6 = 5 mm
+```
+
 
 
 #### Gear4 (Video): 
