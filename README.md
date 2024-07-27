@@ -310,9 +310,13 @@ gear4 = 4 * 36 = 144 mm
 - open Assembly
 - Draw the pitch circles
 - d
+- 
+Simulation soesnt work and the reason is the number of teeth :
 
 
+![image](https://github.com/user-attachments/assets/5fe1cc6c-c9db-40f1-96be-e31acf8da9d2)
 
+As you can see, they are overlapping so the solution is to increase the number of teeth. For instance, using a gear with at least 8 teeth might help improve meshing.
 
 
 
