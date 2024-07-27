@@ -115,7 +115,9 @@ This all we eill assume and from it we can find:
 
 - Outer diameter = (number of teeth +2 ) *  Module
   
-- 
+- The distance between outer circle and first inner circle = Module * 2
+
+- The relation between depth (the second inner circle) and outer diameter is = module * if Module equals or greater than 1.25 then multiply by 2.25, if else: multeply by 2.4
 
 
 
