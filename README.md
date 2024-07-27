@@ -107,8 +107,15 @@ number of turns for gear1 = (Ratio betweeen gear 2 and gear 1) * (Ratio betweeen
 ```
 
 ## Equations
+We need to determine : Module, number of teeth, and pressure angle. 
 
+This all we eill assume and from it we can find:
 
+- Reference diameter = Module × Number of teeth
+
+- Outer diameter = (number of teeth +2 ) *  Module
+  
+- 
 
 
 
