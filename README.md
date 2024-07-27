@@ -6,7 +6,7 @@ We need to know the following concepts: <br>
 
 **"Module (m)"** is the unit of size that indicates how big or small a gear is. It is the ratio of the reference diameter (pitch diameter) of the gear divided by the number of teeth [1]. <br>
 
-**"Pitch diameter (d)"** The pitch diameter, in simplest terms, is the diameter of an invisible cylinder that would pass through approximately the “middle” of gear teeth, defining what’s commonly referred to as the “pitch circle.” Furthermore, this pitch circle is defined as the circle centered at the gear axis that goes through the pitch point at the spur gear teeth. It is also defines the approximate mating envelope of two gears [2]. <br>
+**"Pitch diameter (d)"** The pitch diameter, in simplest terms, is the diameter of an invisible cylinder that would pass through approximately the “middle” of gear teeth, defining what’s commonly referred to as the “pitch circle.” Furthermore, this pitch circle is defined as the circle centered at the gear axis that goes through the pitch point at the spur gear teeth. It is also defines the approximate mating envelope of two gears, meaning that the teeth will mesh along the pitch diameter [2]. <br>
 
 
 **"Number of teeth"** is simply the count of the individual gear teeth around its circumference. This is a key parameter in determining the gear's diameter and its meshing characteristics with other gears.<br>
