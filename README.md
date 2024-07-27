@@ -284,6 +284,8 @@ W = Diameter / 4 = 30 / 4 = 7.5 mm
 T = Diameter / 6 = 30 / 6 = 5 mm
 ```
 
+![image](https://github.com/user-attachments/assets/ccb619af-595c-486a-9d01-a6017cd96c67)
+
 
 
 #### Gear4 (Video): 
