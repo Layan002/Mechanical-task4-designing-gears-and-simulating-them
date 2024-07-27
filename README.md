@@ -24,6 +24,25 @@ Common pressure angles are 14.5°, 20°, and 25°. The choice of pressure angle 
 > - Two gears with different modules will not mate together because the unit size of the gear must match in order for gears to mate together.<br>
 > - The pressure angle must be the same for all gears to make them compatible. 
 
+
+## Equations
+We need to determine : Module, number of teeth, and pressure angle. 
+
+This all we will assume according to aour needs and from it we can find:
+
+- Pitch diameter (Reference diameter) = Module × Number of teeth
+
+- Outside diameter = (number of teeth +2 ) *  Module
+  
+- The distance between outer circle and base circle = Module * 2
+
+- The distance between root diameter and outer diameter (depth) is = module * if Module equals or greater than 1.25 then multiply by 2.25, if else: multeply by 2.4
+
+- Fillet = 0.3 * Module
+
+- distance to distance Chamfer = Module.
+
+
 # SolidWorks
 First I want to design one gear that has module of 2mm, 25 teeth, and 20 degrees of pressure, to establish the concept in my mind [3]. <br>
 
@@ -130,22 +149,6 @@ number of turns for gear1 = (Ratio betweeen gear 2 and gear 1) * (Ratio betweeen
 ```
 
 
-## Equations
-We need to determine : Module, number of teeth, and pressure angle. 
-
-This all we eill assume and from it we can find:
-
-- Reference diameter = Module × Number of teeth
-
-- Outer diameter = (number of teeth +2 ) *  Module
-  
-- The distance between outer circle and first inner circle = Module * 2
-
-- The relation between depth (the second inner circle) and outer diameter is = module * if Module equals or greater than 1.25 then multiply by 2.25, if else: multeply by 2.4
-
-- Fillet = 0.3 * Module
-
-- distance to distance Chamfer = Module.
 
 # How to make two gears fit togeter ?
 
