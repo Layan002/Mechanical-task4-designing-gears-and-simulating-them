@@ -4,7 +4,10 @@ The task is to design 4 gears to make the first gear rotates 18 times to make th
 # About Gears:
 We need to know the following concepts: <br>
 
-**"Module"** is the unit of size that indicates how big or small a gear is. It is the ratio of the reference diameter (pitch diameter) of the gear divided by the number of teeth [1]. <br>
+**"Module (m)"** is the unit of size that indicates how big or small a gear is. It is the ratio of the reference diameter (pitch diameter) of the gear divided by the number of teeth [1]. <br>
+
+**"Pitch diameter (d)"** The pitch diameter, in simplest terms, is the diameter of an invisible cylinder that would pass through approximately the “middle” of gear teeth, defining what’s commonly referred to as the “pitch circle.” Furthermore, this pitch circle is defined as the circle centered at the gear axis that goes through the pitch point at the spur gear teeth. It is also defines the approximate mating envelope of two gears [2]. <br>
+
 
 **"Number of teeth"** is simply the count of the individual gear teeth around its circumference. This is a key parameter in determining the gear's diameter and its meshing characteristics with other gears.<br>
 
@@ -15,7 +18,7 @@ Common pressure angles are 14.5°, 20°, and 25°. The choice of pressure angle 
 
 
 # SolidWorks
-First I want to design one gear that has 25 teeth to establish the concept in my mind [2]. <br>
+First I want to design one gear that has 25 teeth to establish the concept in my mind [3]. <br>
 
 open new file -> part -> right-click on the part -> hidden tree items -> Equations -> manage Equations
 ![image](https://github.com/user-attachments/assets/0e985480-723b-402d-bc3c-bcb9ce06b508)
@@ -135,7 +138,10 @@ This all we eill assume and from it we can find:
 
 - Fillet = 0.3 * Module
 
-- distance to distance Chamfer = Module. 
+- distance to distance Chamfer = Module.
+
+# How to make two gears fit togeter ?
+
 
 
 
@@ -250,9 +256,9 @@ This setup ensures that Gear 1 will rotate 18 times for Gear 4 to complete one f
 
 
 # References
-
 [1]. [The Module of a Gear](https://fab.cba.mit.edu/classes/863.09/people/cranor/How_to_Make_(Almost)_Anything/David_Cranor/Entries/2009/10/12_Entry_1_files/module.pdf). <br>
-[2]. [Design Of Spur Gear with Equation in SolidWorks](https://www.youtube.com/watch?v=ohzjOBvN-dA&t=428s). <br>
+[2]. [Understanding Gear Profile and Gear Module](https://us.misumi-ec.com/blog/understanding-gear-tooth-profile-gear-module-formula/). <br>
+[3].  [Design Of Spur Gear with Equation in SolidWorks](https://www.youtube.com/watch?v=ohzjOBvN-dA&t=428s). <br>
 
 
 
