@@ -192,6 +192,8 @@ Number of teeth gear1 = 6
 ```
 
 ### Final result for gear3:
+![image](https://github.com/user-attachments/assets/3633122a-0909-42ac-8e39-08a7169989a2)
+
 
 
 
