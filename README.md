@@ -102,7 +102,7 @@ Make these two center lines equal:
 Make these two line perpendicular:
 ![image](https://github.com/user-attachments/assets/d90e2063-aeda-4d94-a3f7-917a6765accf)
 
-Coincident and tangent for this new center line:
+Tangent and Coincident for this new center line:
 ![image](https://github.com/user-attachments/assets/25ff6d8d-fcbc-4f73-815c-051699a0c261)
 
 
