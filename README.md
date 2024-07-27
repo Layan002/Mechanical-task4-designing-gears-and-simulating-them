@@ -22,7 +22,7 @@ Common pressure angles are 14.5°, 20°, and 25°. The choice of pressure angle 
 > Two gears with different modules will not mate together because the unit size of the gear must match in order for gears to mate together.
 
 # SolidWorks
-First I want to design one gear that has 25 teeth to establish the concept in my mind [3]. <br>
+First I want to design one gear that has module of 2mm, 25 teeth, and 20 degrees of pressure, to establish the concept in my mind [3]. <br>
 
 open new file -> part -> right-click on the part -> hidden tree items -> Equations -> manage Equations
 ![image](https://github.com/user-attachments/assets/0e985480-723b-402d-bc3c-bcb9ce06b508)
