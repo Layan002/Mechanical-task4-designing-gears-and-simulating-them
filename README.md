@@ -177,7 +177,8 @@ Number of teeth gear1 = 12
 ```
 
 ### Final result for gear2:
-![image](https://github.com/user-attachments/assets/398ffa00-bd68-45d1-980d-142c0f22adce)
+![image](https://github.com/user-attachments/assets/4e30d901-8482-41ab-b18c-673cdcdeaf4b)
+
 
 ### Designing Video for gear2:
 
