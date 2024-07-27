@@ -156,7 +156,7 @@ Module = 2mm
 Pressure angle = 20
 Number of teeth gear1 = 4
 ```
-
+Module with 2 mm is impossible for 4 teath gears. So, I will make it bigger with 4 mm 
 
 # How to make two gears fit togeter ?
 
