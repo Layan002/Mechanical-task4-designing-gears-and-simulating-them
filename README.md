@@ -148,6 +148,14 @@ This will make ratio as follow:
 number of turns for gear1 = (Ratio betweeen gear 2 and gear 1) * (Ratio betweeen gear 4 and gear 3) =  3 * 6 = 18 
 ```
 
+## Createing 4 teeth gear
+All the gears will have the same modul and pressure angle in order to make them mesh. the difference is the number of teeth.  <br>
+gear1 has the folllowing global bariable: <br>
+```
+Module = 2mm
+Pressure angle = 20
+Number of teeth gear1 = 4
+```
 
 
 # How to make two gears fit togeter ?
