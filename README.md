@@ -294,7 +294,22 @@ T = Diameter / 6 = 30 / 6 = 5 mm
 
 
 
-# Simulation ?
+# Simulation:
+
+I should draw 4 circles which represent the pitch diameter for each gear [5]: <br>
+Let's remeber the values: <br>
+```
+Pitch diameter = Module * Number of teeth
+gear1 = 4 * 4 = 16 mm
+gear2 = 4 * 12 = 48 mm
+gear3 = 4 * 6 = 24 mm
+gear4 = 4 * 36 = 144 mm
+```
+
+## Steps:
+- open Assembly
+- Draw the pitch circles
+- d
 
 
 
@@ -413,7 +428,8 @@ This setup ensures that Gear 1 will rotate 18 times for Gear 4 to complete one f
 [1]. [The Module of a Gear](https://fab.cba.mit.edu/classes/863.09/people/cranor/How_to_Make_(Almost)_Anything/David_Cranor/Entries/2009/10/12_Entry_1_files/module.pdf). <br>
 [2]. [Understanding Gear Profile and Gear Module](https://us.misumi-ec.com/blog/understanding-gear-tooth-profile-gear-module-formula/). <br>
 [3].  [Design Of Spur Gear with Equation in SolidWorks](https://www.youtube.com/watch?v=ohzjOBvN-dA&t=428s). <br>
-[4]. [Shaft key and keyway](https://engineeringproductdesign.com/knowledge-base/keys-keyways/)
+[4]. [Shaft key and keyway](https://engineeringproductdesign.com/knowledge-base/keys-keyways/). <br>
+[5]. [Gears simulating](https://youtu.be/xey6WL873-E?si=yXW94rbeYqKn4HZb)
 
 
 
