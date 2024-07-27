@@ -213,13 +213,17 @@ Number of teeth gear4 = 36
 ```
 
 ### Final result for gear4:
+![image](https://github.com/user-attachments/assets/25dcbbb0-b3b8-4b09-92c9-caea7b6bd545)
 
 
 
 ### Designing Video for gear4:
 
 
-# How to make two gears fit togeter ?
+# Designing nominal shaft diameter
+
+
+# Simulation ?
 
 
 
