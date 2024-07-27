@@ -182,6 +182,22 @@ Number of teeth gear1 = 12
 
 ### Designing Video for gear2:
 
+## Createing 6 teeth gear
+
+gear2 has the folllowing global variable: <br>
+```
+Module = 4mm
+Pressure angle = 25
+Number of teeth gear1 = 6
+```
+
+### Final result for gear3:
+
+
+
+### Designing Video for gear3:
+
+
 
 # How to make two gears fit togeter ?
 
