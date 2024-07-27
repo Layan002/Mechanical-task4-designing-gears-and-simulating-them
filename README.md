@@ -7,6 +7,7 @@ The task is to design 4 gears to make the first gear rotates 18 times to make th
 open new file -> part -> right-click on the part -> hidden tree items -> Equations -> manage Equations
 ![image](https://github.com/user-attachments/assets/0e985480-723b-402d-bc3c-bcb9ce06b508)
 
+
 In designing any spur gear, We must know about: 
 - Module
 - Number of teeth
