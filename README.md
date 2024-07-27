@@ -21,7 +21,7 @@ Common pressure angles are 14.5°, 20°, and 25°. The choice of pressure angle 
 ![image](https://github.com/user-attachments/assets/c7a8b9e3-cde6-49fb-b3ef-bd8b30acdb2a)
 
 > [!CAUTION]
-> - Two gears with different modules will not mate together because the unit size of the gear must match in order for gears to mate together.<br>
+> - Two gears with different modules will not mesh together because the unit size of the gear must match in order for gears to mate together.<br>
 > - The pressure angle must be the same for all gears to make them compatible. 
 
 
