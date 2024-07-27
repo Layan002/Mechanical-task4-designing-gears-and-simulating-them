@@ -29,7 +29,11 @@ Outer diameter = ( Number of teeth +2 ) * Module
 
 ![image](https://github.com/user-attachments/assets/2887f212-1103-4bd3-be05-0f53fd28dd40)
 
-Angle = 
+Extrude the outer diameter making it mid plane
+![image](https://github.com/user-attachments/assets/95b28a35-d4c2-47f2-be09-075ee543ea8a)
+
+
+Open a new sketch from front plane to draw the following lines and set the Angle = 
 
 ![image](https://github.com/user-attachments/assets/078f4953-42aa-4bab-916d-86384bc7c441)
 
