@@ -161,7 +161,8 @@ Number of teeth gear1 = 4
 
 
 Now, I finished the hardest gear since it is the smallest one (even toolBox in solidWorks does not contain a gear with 4 teeth 😅). <br>
-![image](https://github.com/user-attachments/assets/4e8372c4-7332-497a-98e4-7a6c18b06156)
+![image](https://github.com/user-attachments/assets/e239523e-0860-4dc1-b863-c3fd69fe69b9)
+
 
 ## Createing 12 teeth gear
 
