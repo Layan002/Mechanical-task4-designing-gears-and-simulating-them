@@ -2,10 +2,13 @@
 The task is to design 4 gears to make the first gear rotates 18 times to make the last gear rotate once
 
 # About Gears:
-We need to know the following concepts
-"Module" " is the unit of size that indicates how big or small a gear is. It is the ratio of the reference diameter (pitch diameter) of the gear divided by the number of teeth. <br>
-"Number of teeth" is The number of teeth on a gear is simply the count of the individual gear teeth around its circumference. This is a key parameter in determining the gear's diameter and its meshing characteristics with other gears.<br>
-"Pressure Angle" is the angle between the line of action (the line along which the force is transmitted between meshing gears) and the line tangent to the pitch circle. It is a critical parameter in gear design that affects the gear's strength, the smoothness of operation, and the load distribution along the gear teeth. <br>
+We need to know the following concepts: <br>
+
+**"Module"** is the unit of size that indicates how big or small a gear is. It is the ratio of the reference diameter (pitch diameter) of the gear divided by the number of teeth. <br>
+
+**"Number of teeth"** is The number of teeth on a gear is simply the count of the individual gear teeth around its circumference. This is a key parameter in determining the gear's diameter and its meshing characteristics with other gears.<br>
+
+**"Pressure Angle"** is the angle between the line of action (the line along which the force is transmitted between meshing gears) and the line tangent to the pitch circle. It is a critical parameter in gear design that affects the gear's strength, the smoothness of operation, and the load distribution along the gear teeth. <br>
 
 Common pressure angles are 14.5°, 20°, and 25°. The choice of pressure angle impacts the gear's performance and is often standardized within gear systems to ensure compatibility and efficient power transmission.
 
