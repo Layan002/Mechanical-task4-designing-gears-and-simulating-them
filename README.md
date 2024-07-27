@@ -9,7 +9,10 @@ We need to know the following concepts: <br>
 **"Pitch diameter (d)"** The pitch diameter, in simplest terms, is the diameter of an invisible cylinder that would pass through approximately the “middle” of gear teeth, defining what’s commonly referred to as the “pitch circle.” Furthermore, this pitch circle is defined as the circle centered at the gear axis that goes through the pitch point at the spur gear teeth. It is also defines the approximate mating envelope of two gears, meaning that the teeth will mesh along the pitch diameter [2]. <br>
 
 
-**"Number of teeth"** is simply the count of the individual gear teeth around its circumference. This is a key parameter in determining the gear's diameter and its meshing characteristics with other gears.<br>
+**"Number of teeth (N)"** is simply the count of the individual gear teeth around its circumference. This is a key parameter in determining the gear's diameter and its meshing characteristics with other gears.<br>
+
+![image](https://github.com/user-attachments/assets/b353ae2a-ce8b-4598-a7ef-27673f338803)
+
 
 **"Pressure Angle"** is the angle between the line of action (the line along which the force is transmitted between meshing gears) and the line tangent to the pitch circle. It is a critical parameter in gear design that affects the gear's strength, the smoothness of operation, and the load distribution along the gear teeth. <br>
 
