@@ -32,12 +32,12 @@ In designing any spur gear, We must know about:
 ![image](https://github.com/user-attachments/assets/b79c228f-734d-44d7-a2a4-206a5c26da58)
 
 To find the diameter: <br>
-Diameter = Module * number of teeth.
+Pitch diameter = Module * number of teeth.
 ![image](https://github.com/user-attachments/assets/34cdb93b-245a-45c1-a30c-69132c284324)
 ![image](https://github.com/user-attachments/assets/241c3b9e-00b9-4715-af49-920362357dc7)
 
-To find outer diameter: 
-Outer diameter = ( Number of teeth +2 ) * Module
+To find diameter: 
+Diameter = ( Number of teeth + 2 ) * Module
 > [!NOTE]
 > 2 is constant for all gears since it is an equation to find the outer diameter for all gears in life.
 
