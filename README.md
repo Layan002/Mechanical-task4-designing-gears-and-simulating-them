@@ -37,13 +37,14 @@ Open a new sketch from front plane to draw the following lines and set the Angle
 
 ![image](https://github.com/user-attachments/assets/078f4953-42aa-4bab-916d-86384bc7c441)
 
-make the Two lines symmetric aput the dashed line:
+make the Two lines symmetric about the dashed line:
 ![image](https://github.com/user-attachments/assets/ff619b39-422c-465a-96b6-f9b11cff840f)
 
-The first inner circle is = module *2 
+- Draw two innter circles
+- Select smart dimention and select the inner circle with the outer circle and set the dimentions to: module *2 
 ![image](https://github.com/user-attachments/assets/59fac487-cdec-4eb8-a964-4c1e5a760cfd)
 
-The relation between depth and outer diameter is = module * if( Module => 1.25 then multiply by 2.25 else: multeply by 2.4. Like this in SolidWorks:
+The relation between depth (the second inner circle) and outer diameter is = module * if Module equals or greater than 1.25 then multiply by 2.25 if else: multeply by 2.4 :
 ![image](https://github.com/user-attachments/assets/5d6e42b5-5264-4249-afa2-0b1f3815b7c9)
 
 ![image](https://github.com/user-attachments/assets/39d5297d-281e-49bb-b228-e58dffc60617)
