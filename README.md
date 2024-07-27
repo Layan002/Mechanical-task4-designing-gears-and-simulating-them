@@ -220,7 +220,20 @@ Number of teeth gear4 = 36
 ### Designing Video for gear4:
 
 
-# Designing nominal shaft diameter
+# Designing shaft diameter
+We need to draw each of: Hub style, Hub diameter, shaft diameter and keyway. 
+
+A key and the keyway make up a Keyed joint to secure the hub and the shaft to prevent relative movement between a power transmitting shaft and an attached component. For example, Gear drives, Pulleys or Sprockets are connected securely using keys to the power transmitting shaft.
+Keyed joints are an important part of mechanical power transmission elements shaft and couplings, where it ensures the connection transmits the load, power & rotation without slipping and within the accuracy requirement of the design [4]. <br>
+![Keyway-lovejoy](https://github.com/user-attachments/assets/53432bff-8cbb-416d-b418-e885969beaac) <br>
+
+A **key** is usually made from steel and is inserted or mounted between the shaft and the hub of the component in an axial direction to prevent relative movement. Keyseat is a recess in the shaft, and the Keyway is the recess in the hub to receive the key and thus securely lock the component. Generally, the term keyseat is rarely used as keyway is referred to both recesses in the industry [4]. <br>
+
+![image](https://github.com/user-attachments/assets/2e2e5389-6d3d-484c-863e-182a0a094190) <br>
+
+### Important equation for designing: 
+![image](https://github.com/user-attachments/assets/95007572-ac23-459e-87ac-e88f599bc0d9)
+
 
 
 # Simulation ?
@@ -342,6 +355,7 @@ This setup ensures that Gear 1 will rotate 18 times for Gear 4 to complete one f
 [1]. [The Module of a Gear](https://fab.cba.mit.edu/classes/863.09/people/cranor/How_to_Make_(Almost)_Anything/David_Cranor/Entries/2009/10/12_Entry_1_files/module.pdf). <br>
 [2]. [Understanding Gear Profile and Gear Module](https://us.misumi-ec.com/blog/understanding-gear-tooth-profile-gear-module-formula/). <br>
 [3].  [Design Of Spur Gear with Equation in SolidWorks](https://www.youtube.com/watch?v=ohzjOBvN-dA&t=428s). <br>
+[4]. [Shaft key and keyway](https://engineeringproductdesign.com/knowledge-base/keys-keyways/)
 
 
 
