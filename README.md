@@ -66,7 +66,7 @@ make the Two lines symmetric about the dashed line:
 - Select smart dimention and select the inner circle with the outer circle and set the dimentions to: module *2 
 ![image](https://github.com/user-attachments/assets/59fac487-cdec-4eb8-a964-4c1e5a760cfd)
 
-The relation between depth (the second inner circle) and outer diameter is = module * if Module equals or greater than 1.25 then multiply by 2.25 if else: multeply by 2.4 :
+The relation between root circle and outer diameter (tooth depth) is = module * if Module equals or greater than 1.25 then multiply by 2.25 if else: multeply by 2.4 :
 ![image](https://github.com/user-attachments/assets/5d6e42b5-5264-4249-afa2-0b1f3815b7c9)
 
 Results:
