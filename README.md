@@ -96,7 +96,7 @@ This will make ratio as follow:
 ```
 "Ratio betweeen gear 2 and gear 1" = "Gear2" / "Gear1" =  12 / 4 = 3
 "Ratio betweeen gear 4 and gear 3" = "Gear4" / "Gear3" =  36 / 6 = 6
-number of turns for gear1 = Ratio betweeen gear 2 and gear 1 * Ratio betweeen gear 4 and gear 3 =  3 * 6 = 18 
+number of turns for gear1 = (Ratio betweeen gear 2 and gear 1) * (Ratio betweeen gear 4 and gear 3) =  3 * 6 = 18 
 ```
 
 
