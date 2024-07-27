@@ -18,7 +18,8 @@ We need to know the following concepts: <br>
 
 Common pressure angles are 14.5°, 20°, and 25°. The choice of pressure angle impacts the gear's performance and is often standardized within gear systems to ensure compatibility and efficient power transmission.
 
-
+> [!CAUSION]
+> Two gears with different modules will not mate together because the unit size of the gear must match in order for gears to mate together.
 
 # SolidWorks
 First I want to design one gear that has 25 teeth to establish the concept in my mind [3]. <br>
