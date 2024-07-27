@@ -4,7 +4,7 @@ The task is to design 4 gears to make the first gear rotates 18 times to make th
 # About Gears:
 We need to know the following concepts: <br>
 
-**"Module"** is the unit of size that indicates how big or small a gear is. It is the ratio of the reference diameter (pitch diameter) of the gear divided by the number of teeth. <br>
+**"Module"** is the unit of size that indicates how big or small a gear is. It is the ratio of the reference diameter (pitch diameter) of the gear divided by the number of teeth [1]. <br>
 
 **"Number of teeth"** is simply the count of the individual gear teeth around its circumference. This is a key parameter in determining the gear's diameter and its meshing characteristics with other gears.<br>
 
@@ -15,7 +15,7 @@ Common pressure angles are 14.5°, 20°, and 25°. The choice of pressure angle 
 
 
 # SolidWorks
-First I want to design one gear that has 25 teeth to establish the concept in my mind [1]. <br>
+First I want to design one gear that has 25 teeth to establish the concept in my mind [2]. <br>
 
 open new file -> part -> right-click on the part -> hidden tree items -> Equations -> manage Equations
 ![image](https://github.com/user-attachments/assets/0e985480-723b-402d-bc3c-bcb9ce06b508)
@@ -250,7 +250,9 @@ This setup ensures that Gear 1 will rotate 18 times for Gear 4 to complete one f
 
 
 # References
-[1]. [Design Of Spur Gear with Equation in SolidWorks](https://www.youtube.com/watch?v=ohzjOBvN-dA&t=428s)
+
+[1]. [The Module of a Gear](https://fab.cba.mit.edu/classes/863.09/people/cranor/How_to_Make_(Almost)_Anything/David_Cranor/Entries/2009/10/12_Entry_1_files/module.pdf)
+[2]. [Design Of Spur Gear with Equation in SolidWorks](https://www.youtube.com/watch?v=ohzjOBvN-dA&t=428s)
 
 
 
