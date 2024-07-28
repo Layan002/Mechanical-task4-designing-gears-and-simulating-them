@@ -148,6 +148,10 @@ gear4= 36 teeth
 
 
 
+https://github.com/user-attachments/assets/51b40d11-f3f3-4964-a5f8-1a0bd320c306
+
+
+
 
 
 
