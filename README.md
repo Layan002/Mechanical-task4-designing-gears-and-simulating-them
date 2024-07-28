@@ -205,8 +205,6 @@ Number of teeth gear1 = 4
 Now, I finished the hardest gear since it is the smallest one (even toolBox in solidWorks does not contain a gear with 4 teeth 😅). <br>
 ![image](https://github.com/user-attachments/assets/e239523e-0860-4dc1-b863-c3fd69fe69b9)
 
-### Designing Video for gear1:
-
 
 
 ## Createing 12 teeth gear
@@ -222,7 +220,6 @@ Number of teeth gear2 = 12
 ![image](https://github.com/user-attachments/assets/4e30d901-8482-41ab-b18c-673cdcdeaf4b)
 
 
-### Designing Video for gear2:
 
 
 
@@ -241,9 +238,6 @@ Number of teeth gear3 = 6
 
 
 
-### Designing Video for gear3:
-
-
 
 ## Createing 36 teeth gear
 
@@ -258,8 +252,6 @@ Number of teeth gear4 = 36
 ![image](https://github.com/user-attachments/assets/25dcbbb0-b3b8-4b09-92c9-caea7b6bd545)
 
 
-
-### Designing Video for gear4:
 
 
 # Designing shaft diameter
@@ -282,7 +274,7 @@ I used here **"Square key"** (cross-sectional keys). They are generally specifie
 
 ![image](https://github.com/user-attachments/assets/ce8f0b1d-7d19-4e3f-b938-0a31a03b3db5)
 
-#### Gear1 (Video): 
+
 
 #### Gear2 (Pictrure): <br>
 I've use here **"Rectangular keys"**, as shown, are wider than their height and are sometimes called flat keys. These are used on shafts up to about 500 mm or 20″ in diameter. The extra key width allows it to transmit greater torque without increasing the depth. An increase in depth means a weaker shaft due to a reduction in effective shaft cross-sectional area.<br>
@@ -298,7 +290,6 @@ T = Diameter / 6 = 1.33 mm
 
 
 
-#### Gear2 (Video): 
 
 #### Gear3 (Pictrure): <br>
 
@@ -314,7 +305,6 @@ T = Diameter / 6 = 1.33 mm
 ![image](https://github.com/user-attachments/assets/9111551a-d438-4bb0-99e4-f01a810505f2)
 
 
-#### Gear3 (Video): 
 
 #### Gear4 (Pictrure): <br>
 I will use here rectangle key, with the following values: <br>
@@ -327,10 +317,6 @@ T = Diameter / 6 = 30 / 6 = 5 mm
 ```
 
 ![image](https://github.com/user-attachments/assets/ccb619af-595c-486a-9d01-a6017cd96c67)
-
-
-
-#### Gear4 (Video): 
 
 
 
@@ -395,8 +381,6 @@ Number of teeth gear1 = 8
 ![image](https://github.com/user-attachments/assets/1a69e076-57cc-4df1-89dc-e59d98646b0f)
 
 
-### Designing Video for gear1:
-
 
 
 ## Createing 48 teeth gear
@@ -412,8 +396,6 @@ Number of teeth gear2 = 48
 ![image](https://github.com/user-attachments/assets/7b598c33-726a-4dec-b2d9-a20a78b2b304)
 
 
-
-### Designing Video for gear2:
 
 
 
@@ -431,9 +413,6 @@ Number of teeth gear3 = 6
 
 
 
-
-
-### Designing Video for gear3:
 
 
 
@@ -465,7 +444,7 @@ T = Diameter / 6 = 10 / 6 = 1.67 mm
 ![image](https://github.com/user-attachments/assets/bb6ec316-6f40-4c9c-9fa4-1c24e717d76c) <br>
 
 
-#### Gear1 (Video): 
+
 
 
 #### Gear2 (Pictrure): <br>
@@ -480,7 +459,7 @@ T = Diameter / 6 = 9 / 6 = 1.5 mm
 ![image](https://github.com/user-attachments/assets/2418930e-8b6d-4453-b46e-2454f1d1c70a)
 
 
-#### Gear2 (Video): 
+
 
 
 
@@ -499,7 +478,6 @@ T = Diameter / 6 = 9 / 6 = 1.5 mm
 
 
 
-#### Gear3 (Video): 
 
 
 
