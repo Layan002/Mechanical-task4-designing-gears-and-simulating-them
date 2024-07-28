@@ -133,7 +133,7 @@ This is a profassional and standard spur gear using global variable and equation
 
 -------------------------------------
 
-# Using ezisting gears 
+# Using existing gears 
 ## Simulation:
 I used the following gears: <br>
 ```
