@@ -132,6 +132,41 @@ This is a profassional and standard spur gear using global variable and equation
 ![image](https://github.com/user-attachments/assets/72925b41-cee4-434a-bb36-18e7ba31023b)
 
 -------------------------------------
+
+# Using ezisting gears 
+## Simulation:
+I used the following gears: <br>
+```
+Module = 2 (for all)
+pressure angle = 20 (for all)
+
+gear1= 12 teeth
+gear2= 72 teeth
+gear3 = 12 teeth
+gear4= 36 teeth
+```
+
+
+
+
+
+
+
+-------------------------------------------------------
+
+# References
+[1]. [The Module of a Gear](https://fab.cba.mit.edu/classes/863.09/people/cranor/How_to_Make_(Almost)_Anything/David_Cranor/Entries/2009/10/12_Entry_1_files/module.pdf). <br>
+[2]. [Understanding Gear Profile and Gear Module](https://us.misumi-ec.com/blog/understanding-gear-tooth-profile-gear-module-formula/). <br>
+[3].  [Design Of Spur Gear with Equation in SolidWorks](https://www.youtube.com/watch?v=ohzjOBvN-dA&t=428s). <br>
+[4]. [Shaft key and keyway](https://engineeringproductdesign.com/knowledge-base/keys-keyways/). <br>
+[5]. [Gears simulating](https://youtu.be/xey6WL873-E?si=yXW94rbeYqKn4HZb)
+
+
+----------------------------------------------------------
+--------------------------------------------------------
+-----------------------------------------------------
+# First attempt:
+
 # What I need
 to complete the task of designing 4 gears to make the first gear rotates 18 times to make the last gear rotate once, is to make the following steps:
 - defining the number of teeth for each gear
@@ -300,6 +335,175 @@ I should draw 4 circles which represent the pitch diameter for each gear [5]: <b
 Let's remeber the values: <br>
 ```
 Pitch diameter = Module * Number of teeth
+gear1 = 2 * 8 = 16 mm
+gear 2 & 4 = 2 * 48 = 96 mm
+gear3 = 2 * 16 = 32 mm
+```
+
+## Steps:
+- open Assembly
+- Draw the pitch circles
+- make the needed relations
+  
+Simulation doesn't work and the reason is theat the meshing doesn't work. I will use an existing gearbox that is built in solidWorks. 
+
+
+![image](https://github.com/user-attachments/assets/5fe1cc6c-c9db-40f1-96be-e31acf8da9d2)
+
+As you can see, they are overlapping so the solution is to increase the number of teeth. For instance, using a gear with at least 8 teeth might help improve meshing.
+-----------------------------------------------------------------
+-------------------------------------------------------------------
+---------------------------------------------------------------
+
+# Second Try: 
+
+# What I need
+to complete the task of designing 4 gears to make the first gear rotates 18 times to make the last gear rotate once, is to make the following steps:
+- defining the number of teeth for each gear
+```
+gear1: 8 teeth
+gear2: 48 teeth
+gear3: 16 teeth
+gear4: 48 teeth
+```
+This will make ratio as follow:
+```
+"Ratio betweeen gear 2 and gear 1" = "Gear2" / "Gear1" =  48 / 8 = 6
+"Ratio betweeen gear 4 and gear 3" = "Gear4" / "Gear3" =  48 / 16 = 3
+number of turns for gear1 = (Ratio betweeen gear 2 and gear 1) * (Ratio betweeen gear 4 and gear 3) =  6 * 3 = 18 
+```
+
+## Createing 4 teeth gear
+All the gears will have the same modul and pressure angle in order to make them mesh. the difference just in the number of teeth.  <br>
+
+gear1 has the folllowing global variable: <br>
+```
+Module = 2mm
+Pressure angle = 20
+Number of teeth gear1 = 8
+```
+
+### Final result for gear1:
+
+![image](https://github.com/user-attachments/assets/1a69e076-57cc-4df1-89dc-e59d98646b0f)
+
+
+### Designing Video for gear1:
+
+
+
+## Createing 48 teeth gear
+
+gear2 has the folllowing global variable: <br>
+```
+Module = 2 mm
+Pressure angle = 20
+Number of teeth gear2 = 48
+```
+
+### Final result for gear2:
+![image](https://github.com/user-attachments/assets/7b598c33-726a-4dec-b2d9-a20a78b2b304)
+
+
+
+### Designing Video for gear2:
+
+
+
+## Createing 16 teeth gear
+
+gear3 has the folllowing global variable: <br>
+```
+Module = 4mm
+Pressure angle = 25
+Number of teeth gear3 = 6
+```
+
+### Final result for gear3:
+![image](https://github.com/user-attachments/assets/422e669f-dc70-429f-8821-e78e1ee82309)
+
+
+
+
+
+### Designing Video for gear3:
+
+
+
+# Designing shaft diameter
+We need to draw each of: Hub style, Hub diameter, shaft diameter and keyway. 
+
+A key and the keyway make up a Keyed joint to secure the hub and the shaft to prevent relative movement between a power transmitting shaft and an attached component. For example, Gear drives, Pulleys or Sprockets are connected securely using keys to the power transmitting shaft.
+Keyed joints are an important part of mechanical power transmission elements shaft and couplings, where it ensures the connection transmits the load, power & rotation without slipping and within the accuracy requirement of the design [4]. <br>
+![Keyway-lovejoy](https://github.com/user-attachments/assets/53432bff-8cbb-416d-b418-e885969beaac) <br>
+
+A **key** is usually made from steel and is inserted or mounted between the shaft and the hub of the component in an axial direction to prevent relative movement. Keyseat is a recess in the shaft, and the Keyway is the recess in the hub to receive the key and thus securely lock the component. Generally, the term keyseat is rarely used as keyway is referred to both recesses in the industry [4]. <br>
+
+![image](https://github.com/user-attachments/assets/2e2e5389-6d3d-484c-863e-182a0a094190) <br>
+
+### Important equation for designing: 
+![image](https://github.com/user-attachments/assets/95007572-ac23-459e-87ac-e88f599bc0d9)
+
+### Final Results for all gears:
+I've use here **"Rectangular keys"** for all gears, as shown, are wider than their height and are sometimes called flat keys. These are used on shafts up to about 500 mm or 20″ in diameter. The extra key width allows it to transmit greater torque without increasing the depth. An increase in depth means a weaker shaft due to a reduction in effective shaft cross-sectional area.<br>
+
+#### Gear1 (Pictrure): 
+```
+Hub = 10 mm
+Diameter = 8 mm
+W = Diameter / 4 = 10 / 4 = 2.5 mm
+T = Diameter / 6 = 10 / 6 = 1.67 mm 
+```
+
+![image](https://github.com/user-attachments/assets/bb6ec316-6f40-4c9c-9fa4-1c24e717d76c) <br>
+
+
+#### Gear1 (Video): 
+
+
+#### Gear2 (Pictrure): <br>
+
+
+```
+Hub = 12 mm
+Diameter = 9 mm
+W = Diameter / 4 = 9 / 4 = 2.25 mm
+T = Diameter / 6 = 9 / 6 = 1.5 mm 
+```
+![image](https://github.com/user-attachments/assets/2418930e-8b6d-4453-b46e-2454f1d1c70a)
+
+
+#### Gear2 (Video): 
+
+
+
+
+#### Gear3 (Pictrure): <br>
+The values here will be the same as gear2: <br>
+
+```
+Hub = 12 mm
+Diameter = 9 mm
+W = Diameter / 4 = 9 / 4 = 2.25 mm
+T = Diameter / 6 = 9 / 6 = 1.5 mm 
+```
+
+![image](https://github.com/user-attachments/assets/88b1bd01-1aac-4b6b-b076-175b405340da)
+
+
+
+#### Gear3 (Video): 
+
+
+
+
+
+# Simulation:
+
+I should draw 4 circles which represent the pitch diameter for each gear [5]: <br>
+Let's remeber the values: <br>
+```
+Pitch diameter = Module * Number of teeth
 gear1 = 4 * 4 = 16 mm
 gear2 = 4 * 12 = 48 mm
 gear3 = 4 * 6 = 24 mm
@@ -321,119 +525,6 @@ As you can see, they are overlapping so the solution is to increase the number o
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--------------------------------------------------------
-To create and simulate a set of four gears controlling each other in SolidWorks, you can use equations and global variables to define their relationships. Here’s how to set it up:
-
-Define Global Variables for Gear Parameters:
-
-Number of teeth for each gear
-Diameters for each gear (if needed)
-Gear ratios
-Create Equations to Control Rotational Relationships:
-
-Define the angular velocities and rotations based on the gear ratios.
-Here’s an example setup:
-
-Step 1: Define Global Variables
-Open the Equations Manager: Tools > Equations.
-Add the following global variables:
-plaintext
-Copy code
-"Teeth_Gear1" = 4
-"Teeth_Gear2" = 12
-"Teeth_Gear3" = 6
-"Teeth_Gear4" = 36
-Step 2: Define Gear Ratios
-Add the gear ratios based on the number of teeth:
-plaintext
-Copy code
-"Ratio_Gear1_to_Gear2" = "Teeth_Gear2" / "Teeth_Gear1"  // 12 / 4 = 3
-"Ratio_Gear2_to_Gear3" = "Teeth_Gear3" / "Teeth_Gear2"  // 6 / 12 = 0.5
-"Ratio_Gear3_to_Gear4" = "Teeth_Gear4" / "Teeth_Gear3"  // 36 / 6 = 6
-Step 3: Define Angular Velocities
-Define the angular velocity of Gear 1 (input gear):
-plaintext
-Copy code
-"AngularVelocity_Gear1" = 1  // 1 revolution per second (or any unit)
-Define the angular velocities for the other gears based on the input gear:
-plaintext
-Copy code
-"AngularVelocity_Gear2" = "AngularVelocity_Gear1" / "Ratio_Gear1_to_Gear2"  // 1 / 3 = 0.333
-"AngularVelocity_Gear3" = "AngularVelocity_Gear2" / "Ratio_Gear2_to_Gear3"  // 0.333 / 0.5 = 0.666
-"AngularVelocity_Gear4" = "AngularVelocity_Gear3" / "Ratio_Gear3_to_Gear4"  // 0.666 / 6 = 0.111
-Step 4: Define Rotations
-Define the rotations (angle) for each gear:
-plaintext
-Copy code
-"Rotation_Gear1" = "AngularVelocity_Gear1" * "Time"
-"Rotation_Gear2" = "AngularVelocity_Gear2" * "Time"
-"Rotation_Gear3" = "AngularVelocity_Gear3" * "Time"
-"Rotation_Gear4" = "AngularVelocity_Gear4" * "Time"
-Here, Time is the simulation time variable that you can define as a global variable or parameter.
-
-Example Equations in SolidWorks
-In the Equations Manager, you can add equations like this:
-
-plaintext
-Copy code
-"Teeth_Gear1" = 4
-"Teeth_Gear2" = 12
-"Teeth_Gear3" = 6
-"Teeth_Gear4" = 36
-
-"Ratio_Gear1_to_Gear2" = "Teeth_Gear2" / "Teeth_Gear1"
-"Ratio_Gear2_to_Gear3" = "Teeth_Gear3" / "Teeth_Gear2"
-"Ratio_Gear3_to_Gear4" = "Teeth_Gear4" / "Teeth_Gear3"
-
-"AngularVelocity_Gear1" = 1
-"AngularVelocity_Gear2" = "AngularVelocity_Gear1" / "Ratio_Gear1_to_Gear2"
-"AngularVelocity_Gear3" = "AngularVelocity_Gear2" / "Ratio_Gear2_to_Gear3"
-"AngularVelocity_Gear4" = "AngularVelocity_Gear3" / "Ratio_Gear3_to_Gear4"
-
-"Time" = [Your Simulation Time]
-
-"Rotation_Gear1" = "AngularVelocity_Gear1" * "Time"
-"Rotation_Gear2" = "AngularVelocity_Gear2" * "Time"
-"Rotation_Gear3" = "AngularVelocity_Gear3" * "Time"
-"Rotation_Gear4" = "AngularVelocity_Gear4" * "Time"
-Step 5: Apply Equations to Your Model
-Create your gears in SolidWorks with the correct number of teeth.
-Use the equations to drive the rotational relationships in your assembly.
-Apply mates and constraints to ensure gears are properly meshed and aligned.
-Run the simulation to see the gears rotate based on the defined equations.
-This setup ensures that Gear 1 will rotate 18 times for Gear 4 to complete one full rotation, as the ratios and angular velocities are correctly defined. Adjust the Time variable to simulate different durations.
-
-
-
-
-
-
-
-
-
-# References
-[1]. [The Module of a Gear](https://fab.cba.mit.edu/classes/863.09/people/cranor/How_to_Make_(Almost)_Anything/David_Cranor/Entries/2009/10/12_Entry_1_files/module.pdf). <br>
-[2]. [Understanding Gear Profile and Gear Module](https://us.misumi-ec.com/blog/understanding-gear-tooth-profile-gear-module-formula/). <br>
-[3].  [Design Of Spur Gear with Equation in SolidWorks](https://www.youtube.com/watch?v=ohzjOBvN-dA&t=428s). <br>
-[4]. [Shaft key and keyway](https://engineeringproductdesign.com/knowledge-base/keys-keyways/). <br>
-[5]. [Gears simulating](https://youtu.be/xey6WL873-E?si=yXW94rbeYqKn4HZb)
 
 
 
